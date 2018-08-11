@@ -20,4 +20,7 @@ sudo curl 'https://api.hackertarget.com/hostsearch/?q=googlevideo.com' \
 # collecting the youtube ads website from the pihole logs and added it the youtubeList.txt 
 sudo cat /var/log/pihole*.log |grep 'r[0-9]*-.*.googlevideo'|awk '{print $8}'|sort |uniq >> $balckListFile
 
+# remove the duplicate records in place
+gawk -i inplace '!a[$0]++' $balckListFile
+
 
