@@ -1,6 +1,6 @@
 #!/bin/sh
 # Update the pihole list with youtube ads 
-# this shell is made by Kiro 
+# this shell script is made by Kiro 
 #Thank you for using it and enjoy 
 
 # The script will create a file with all the youtube ads found in hostsearch and from the logs of the Pi-hole
@@ -27,6 +27,11 @@ sudo curl 'https://api.hackertarget.com/hostsearch/?q=googlevideo.com' \
 sudo cat /var/log/pihole*.log |grep 'r[0-9]*-.*.googlevideo'|awk -v a=$piholeIPV4 '{print a " " $8}'|sort |uniq>> $balckListFile
 sudo cat /var/log/pihole*.log |grep 'r[0-9]*-.*.googlevideo'|awk -v a=$piholeIPV6 '{print a " " $8}'|sort |uniq>> $balckListFile
 sudo cat /var/log/pihole*.log |grep 'r[0-9]*-.*.googlevideo'|awk '{print $8}'|sort |uniq>> $blacklist
+
+wait 
+
+# check to see if gawk is installed. if not it will install it
+dpkg -l | grep -qw gawk || sudo apt-get install gawk
 
 wait 
 # remove the duplicate records in place
