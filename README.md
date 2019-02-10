@@ -4,6 +4,7 @@
 - The script will create a file with all the youtube ads found in hostsearch and from the logs of the Pi-hole </br>
 - it will append the list into a file called youtubeList.txt '/etc/pihole/youtubeList.txt'</br>
 - this file will be added to the pihole adlists.txt </br>
+- The script will check all queriy logs for any Youtube ads and add it to the blacklist
 
 it will be more effective if you add it the crontab </br>
 
