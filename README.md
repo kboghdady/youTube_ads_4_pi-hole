@@ -1,4 +1,4 @@
-# Block YouTube script to add the new Ads list for Pi-hole
+# Script to add YouTube Ads DNS to Pi-hole black list
 
 
 - The script will create a file with all the youtube ads found in hostsearch and from the logs of the Pi-hole </br>
