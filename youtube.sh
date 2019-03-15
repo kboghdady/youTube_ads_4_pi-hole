@@ -34,7 +34,7 @@ sudo cat /var/log/pihole.log|awk '{print $6}'|grep 'r[0-9]*-.*.googlevideo'|sort
 wait 
 
 # check to see if gawk is installed. if not it will install it
-dpkg -l | grep -qw gawk || sudo apt-get install gawk
+dpkg -l | grep -qw gawk || sudo apt-get install gawk -y
 
 wait 
 # remove the duplicate records in place
