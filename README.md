@@ -11,15 +11,15 @@ it will be more effective if you add it the crontab </br>
 Steps: </br></br>
 1- Download the github using this command : </br>
 ```
-git clonehttps://github.com/kboghdady/youTube_ads_4_pi-hole.git</br>
+git clonehttps://github.com/kboghdady/youTube_ads_4_pi-hole.git
 ```
 2- Create a schdule task to run the script: </br>
 ```
-sudo crontab -e </br>
+sudo crontab -e 
 ```
 add this line to it to make it runs every 4 hours</br>
 ```
-0 */4 * * * sudo /home/pi/youTube_ads_4_pi-hole/youtube.sh >/dev/null </br>
+0 */4 * * * sudo /home/pi/youTube_ads_4_pi-hole/youtube.sh >/dev/null 
 ```
 Where the script location is /home/pi/youtube.sh </br>
 more information about crontab https://crontab.guru </br>
