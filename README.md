@@ -11,7 +11,7 @@ it will be more effective if you add it the crontab </br>
 Steps: </br></br>
 1- Download the script from github using this command : </br>
 ```
-git clonehttps://github.com/kboghdady/youTube_ads_4_pi-hole.git
+git clone https://github.com/kboghdady/youTube_ads_4_pi-hole.git
 ```
 2- Create a scheduled task to run the script: </br>
 ```
