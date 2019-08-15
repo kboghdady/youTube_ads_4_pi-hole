@@ -24,7 +24,7 @@ Add this line to make it runs every 4 hours</br>
 Where the script location is /home/pi/youTube_ads_4_pi-hole/youtube.sh </br>
 more information about crontab https://crontab.guru </br>
 
-[![Buy me Coffee](https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png)](https://www.buymeacoffee.com/XMh7J53o1)
-
+[![Buy me Coffee](https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png)(https://www.buymeacoffee.com/XMh7J53o1)
+[!Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=U6D8YB3PEWTVW&item_name=Buy+me+a+coffee&currency_code=USD&source=url)
 Buy me a cofee https://www.buymeacoffee.com/XMh7J53o1
 
