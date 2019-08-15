@@ -27,7 +27,7 @@ sudo curl 'https://api.hackertarget.com/hostsearch/?q=googlevideo.com' \
 
 # Get the list from the GitHub 
 sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list'\
->>$blackListFile
+>>$blacklist
 
 # collecting the youtube ads website from the pihole logs and added it the blacklist.txt
 #Also, Collect the youtube videos from the Pihole logs 
