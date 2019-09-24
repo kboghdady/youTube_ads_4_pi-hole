@@ -16,14 +16,14 @@ blacklist='/etc/pihole/blacklist.txt'
 # Get the domain list from hackeragent api 
 # change it to be r[Number]---sn--
 # added to the youtubeFile
-sudo curl 'https://api.hackertarget.com/hostsearch/?q=googlevideo.com' \
-| awk -F, 'NR>1{print $1}'|sed "s/\(^r[[:digit:]]*\)\.\(sn\)/$piholeIPV4 \1---\2-/ ">>$blackListFile
+#sudo curl 'https://api.hackertarget.com/hostsearch/?q=googlevideo.com' \
+#| awk -F, 'NR>1{print $1}'|sed "s/\(^r[[:digit:]]*\)\.\(sn\)/$piholeIPV4 \1---\2-/ ">>$blackListFile
 
-sudo curl 'https://api.hackertarget.com/hostsearch/?q=googlevideo.com' \
-| awk -F, 'NR>1{print $1}'|sed "s/\(^r[[:digit:]]*\)\.\(sn\)/$piholeIPV6 \1---\2-/ ">>$blackListFile
+#sudo curl 'https://api.hackertarget.com/hostsearch/?q=googlevideo.com' \
+#| awk -F, 'NR>1{print $1}'|sed "s/\(^r[[:digit:]]*\)\.\(sn\)/$piholeIPV6 \1---\2-/ ">>$blackListFile
 
-sudo curl 'https://api.hackertarget.com/hostsearch/?q=googlevideo.com' \
-| awk -F, 'NR>1{print $1}'|sed "s/\(^r[[:digit:]]*\)\.\(sn\)/\1---\2-/ ">>$blacklist
+#sudo curl 'https://api.hackertarget.com/hostsearch/?q=googlevideo.com' \
+#| awk -F, 'NR>1{print $1}'|sed "s/\(^r[[:digit:]]*\)\.\(sn\)/\1---\2-/ ">>$blacklist
 
 # Get the list from the GitHub 
 sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list'\
@@ -31,10 +31,10 @@ sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/mas
 
 # collecting the youtube ads website from the pihole logs and added it the blacklist.txt
 #Also, Collect the youtube videos from the Pihole logs 
-sudo cat /var/log/pihole.log* |grep '^r[0-9]*-.*.googlevideo'|grep -v '\-\-\-sn\-n4v7' |awk -v a="$piholeIPV4" '{print a " " $8}'|sort |uniq>> $blackListFile
-sudo cat /var/log/pihole.log* |grep '^r[0-9]*-.*.googlevideo'|grep -v '\-\-\-sn\-n4v7' |awk -v a="$piholeIPV6" '{print a " " $8}'|sort |uniq>> $blackListFile
-sudo cat /var/log/pihole.log* |grep '^r[0-9]*-.*.googlevideo'|grep -v '\-\-\-sn\-n4v7' |awk '{print $8}'|sort |uniq>> $blacklist
-sudo cat /var/log/pihole.log* |awk '{print $6}'|grep '^r[0-9]*-.*.googlevideo'|grep -v '\-\-\-sn\-n4v7' |sort |uniq>> $blacklist
+#sudo cat /var/log/pihole.log* |grep '^r[0-9]*-.*.googlevideo'|grep -v '\-\-\-sn\-n4v7' |awk -v a="$piholeIPV4" '{print a " " $8}'|sort |uniq>> $blackListFile
+#sudo cat /var/log/pihole.log* |grep '^r[0-9]*-.*.googlevideo'|grep -v '\-\-\-sn\-n4v7' |awk -v a="$piholeIPV6" '{print a " " $8}'|sort |uniq>> $blackListFile
+#sudo cat /var/log/pihole.log* |grep '^r[0-9]*-.*.googlevideo'|grep -v '\-\-\-sn\-n4v7' |awk '{print $8}'|sort |uniq>> $blacklist
+#sudo cat /var/log/pihole.log* |awk '{print $6}'|grep '^r[0-9]*-.*.googlevideo'|grep -v '\-\-\-sn\-n4v7' |sort |uniq>> $blacklist
 wait 
 
 # check to see if gawk is installed. if not it will install it
