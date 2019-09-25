@@ -1,6 +1,6 @@
 # Script to add YouTube Ads DNS to Pi-hole black list
 
-# If you used my script before. Please wipe your black list as it caused to block the youtube itself, and start using this new script it is way more efficient, and you will a huge difference 
+# If you used my script before. Please wipe your black list as it caused to block the youtube itself, and start using this new script it is way more efficient, and you will see a huge difference 
 
 
 - The script will create a file with all the youtube ads found in hostsearch and from the logs of the Pi-hole </br>
