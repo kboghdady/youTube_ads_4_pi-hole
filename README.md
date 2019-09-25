@@ -24,6 +24,7 @@ Add this line to make it runs every 4 hours</br>
 Where the script location is /home/pi/youTube_ads_4_pi-hole/youtube.sh </br>
 more information about crontab https://crontab.guru </br>
 
+## the List of DNS get updated every week or 2 weeks
 Buy me a coffee via paypal 
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=U6D8YB3PEWTVW&item_name=Buy+me+a+coffee&currency_code=USD&source=url)
