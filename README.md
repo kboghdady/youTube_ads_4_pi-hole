@@ -15,6 +15,13 @@ Steps: </br></br>
 ```
 git clone https://github.com/kboghdady/youTube_ads_4_pi-hole.git
 ```
+
+```
+cd youTube_ads_4_pi-hole
+```
+```
+sudo chmod a+x youtube.sh
+```
 2- Create a scheduled task to run the script: </br>
 ```
 sudo crontab -e 
