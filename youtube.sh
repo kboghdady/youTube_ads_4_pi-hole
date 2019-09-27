@@ -25,8 +25,8 @@ wait
 # check to see if gawk is installed. if not it will install it
 dpkg -l | grep -qw gawk || sudo apt-get install gawk -y
 
-#wait 
+wait 
 # remove the duplicate records in place
-#gawk -i inplace '!a[$0]++' $blackListFile
+gawk -i inplace '!a[$0]++' $blackListFile
 wait 
 gawk -i inplace '!a[$0]++' $blacklist
