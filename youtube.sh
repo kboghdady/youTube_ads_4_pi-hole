@@ -17,13 +17,16 @@ blacklist='/etc/pihole/blacklist.txt'
 sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list'\
 >>$blacklist
 
+sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list'\
+>>$blackListFile
+
 wait 
 
 # check to see if gawk is installed. if not it will install it
 dpkg -l | grep -qw gawk || sudo apt-get install gawk -y
 
-#wait 
+wait 
 # remove the duplicate records in place
-#gawk -i inplace '!a[$0]++' $blackListFile
+gawk -i inplace '!a[$0]++' $blackListFile
 wait 
 gawk -i inplace '!a[$0]++' $blacklist
