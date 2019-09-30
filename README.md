@@ -1,12 +1,14 @@
 # Script to add YouTube Ads DNS to Pi-hole black list
 
-# If you used my script before. Please wipe your black list as it caused to block the youtube itself, and start using this new script it is way more efficient, and you will see a huge difference 
+# If you used my script before. 
+- Please wipe your black list or use the command sudo pihole -f 
+- because my previous development caused to block the youtube video itself
+- The new script has been working great for me for the last couple days
 
-
-- The script will create a file with all the youtube ads found in hostsearch and from the logs of the Pi-hole </br>
-- it will append the list into a file called youtubeList.txt '/etc/pihole/youtubeList.txt'</br>
-- this file will be added to the pihole adlists.txt </br>
-- The script will check all queriy logs for any Youtube ads and add it to the blacklist
+# How the script works
+- It will get the black.list from my github which is updated daily or every two days 
+- It will update both the black.list and blacklist.txt files where the blocking of pihole happens
+- It will remove any dupiclates 
 
 it will be more effective if you add it the crontab </br>
 
@@ -26,14 +28,13 @@ sudo chmod a+x youtube.sh
 ```
 sudo crontab -e 
 ```
-Add this line to make it runs every 4 hours</br>
+Add this line to make it runs every 1 hour, but you can change it to whatever you like</br>
 ```
-0 */4 * * * sudo /home/pi/youTube_ads_4_pi-hole/youtube.sh >/dev/null 
+0 */1 * * * sudo /home/pi/youTube_ads_4_pi-hole/youtube.sh >/dev/null 
 ```
 Where the script location is /home/pi/youTube_ads_4_pi-hole/youtube.sh </br>
 more information about crontab https://crontab.guru </br>
 
 ## the List of DNS get updated daily
-Buy me a coffee via paypal 
-
+Buy me 1$ coffee via paypal 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=U6D8YB3PEWTVW&item_name=Buy+me+a+coffee&currency_code=USD&source=url)
