@@ -28,7 +28,7 @@ sudo chmod a+x youtube.sh
 ```
 sudo crontab -e 
 ```
-Add this line to make it runs every 1 hours, but you can change it to whatever you like</br>
+Add this line to make it runs every 1 hour, but you can change it to whatever you like</br>
 ```
 0 */1 * * * sudo /home/pi/youTube_ads_4_pi-hole/youtube.sh >/dev/null 
 ```
@@ -37,5 +37,4 @@ more information about crontab https://crontab.guru </br>
 
 ## the List of DNS get updated daily
 Buy me 1$ coffee via paypal 
-
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=U6D8YB3PEWTVW&item_name=Buy+me+a+coffee&currency_code=USD&source=url)
