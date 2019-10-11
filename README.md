@@ -1,6 +1,6 @@
 # Script to add YouTube Ads DNS to Pi-hole black list
 
-# Now you can update your 
+# Now you can update your adlists.list
 ```
 sudo /etc/pihole/adlists.list
 ```
