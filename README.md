@@ -1,7 +1,7 @@
 # Script to add YouTube Ads DNS to Pi-hole blacklist
 
 # If you used my script before. 
-- Please wipe your blacklist or use the command sudo pihole -f 
+- Please wipe your blacklist or use the command ```sudo pihole -f ```
 - because my previous development caused to block the youtube video itself
 - The new script has been working great for me for the last couple days
 
@@ -35,6 +35,6 @@ Add this line to make it runs every 1 hour, but you can change it to whatever yo
 Where the script location is /home/pi/youTube_ads_4_pi-hole/youtube.sh </br>
 more information about crontab https://crontab.guru </br>
 
-## The List of DNS gets updated daily
+## The list of DNS gets updated daily
 Buy me 1$ coffee via paypal 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=U6D8YB3PEWTVW&item_name=Buy+me+a+coffee&currency_code=USD&source=url)
