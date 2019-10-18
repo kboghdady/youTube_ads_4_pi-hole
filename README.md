@@ -1,7 +1,7 @@
 # Script to add YouTube Ads DNS to Pi-hole blacklist
 
 # If you used my script before. 
-- Please wipe your blacklist or use the command ```sudo pihole -f ```
+- Please wipe your blacklist or use the command ```diff +sudo pihole -f ```
 - because my previous development caused to block the youtube video itself
 - The new script has been working great for me for the last couple days
 
