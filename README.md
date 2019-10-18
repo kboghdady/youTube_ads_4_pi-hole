@@ -38,14 +38,3 @@ more information about crontab https://crontab.guru </br>
 ## the List of DNS get updated daily
 Buy me 1$ coffee via paypal 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=U6D8YB3PEWTVW&item_name=Buy+me+a+coffee&currency_code=USD&source=url)
-
-
-# You can update your adlists.list ( I found out is not that effective )
-```
-sudo /etc/pihole/adlists.list
-```
-then add the youtube list 
-
-```
-https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt
-```
