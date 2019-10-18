@@ -17,8 +17,9 @@ blacklist='/etc/pihole/blacklist.txt'
 sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list'\
 >>$blacklist
 
-sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list'\
->>$blackListFile
+sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list' |awk -v a=$piholeIPV4 '{print a " " $1}'|sort |uniq>>$blackListFile
+sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list' |awk -v a=$piholeIPV6 '{print a " " $1}'|sort |uniq>>$blackListFile
+
 
 wait 
 
