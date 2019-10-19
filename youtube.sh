@@ -13,12 +13,14 @@ piholeIPV6=$(hostname -I |awk '{print $2}')
 blackListFile='/etc/pihole/black.list'
 blacklist='/etc/pihole/blacklist.txt'
 
-# Get the list from the GitHub 
+# Get the list from the GitHub and add it to the blacklist.txt 
 sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list'\
 >>$blacklist
 
-sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list'\
->>$blackListFile
+# Get the list from the GitHub and add it to the blacklist.txt with Pihole IPV4 and IPV6 to black.list
+sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list' |awk -v a=$piholeIPV4 '{print a " " $1}'|sort |uniq>>$blackListFile
+sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list' |awk -v a=$piholeIPV6 '{print a " " $1}'|sort |uniq>>$blackListFile
+
 
 wait 
 
