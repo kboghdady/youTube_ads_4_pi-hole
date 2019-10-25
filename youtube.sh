@@ -16,7 +16,6 @@ blacklist='/etc/pihole/blacklist.txt'
 # Get the list from the GitHub and add it to the blacklist.txt 
 sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list'\
 >>$blacklist
-<<<<<<< HEAD
 sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list'\
 >>$blackListFile
 =======
@@ -26,7 +25,6 @@ sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/mas
 sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list' |awk -v a=$piholeIPV6 '{print a " " $1}'|sort |uniq>>$blackListFile
 
 
->>>>>>> e3ce9b28c307b57ca7f608803409e45cc93f1409
 wait 
 
 # check to see if gawk is installed. if not it will install it
