@@ -18,7 +18,6 @@ sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/mas
 >>$blacklist
 sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list'\
 >>$blackListFile
-=======
 
 # Get the list from the GitHub and add it to the blacklist.txt with Pihole IPV4 and IPV6 to black.list
 sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list' |awk -v a=$piholeIPV4 '{print a " " $1}'|sort |uniq>>$blackListFile
