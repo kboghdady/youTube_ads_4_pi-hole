@@ -7,6 +7,10 @@ Buy me a coffee via paypal
 - Please wipe your blacklist by ``` sudo rm /etc/pihole/black* ``` or use the command ```sudo pihole -f ```
 - because my previous development caused to block the youtube video itself
 - The new script has been working great for me for the last couple days
+
+# Dependencies
+You need `gawk` to run youtube.sh (to remove the duplicate records from your blacklist when the script updates).
+
 # Option 1 : add the link to your gravity block list 
 https://github.com/kboghdady/youTube_ads_4_pi-hole/blob/master/youtubelist.txt
 

@@ -23,12 +23,6 @@ sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/mas
 sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list' |awk -v a=$piholeIPV4 '{print a " " $1}'|sort |uniq>>$blackListFile
 sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list' |awk -v a=$piholeIPV6 '{print a " " $1}'|sort |uniq>>$blackListFile
 
-
-wait 
-
-# check to see if gawk is installed. if not it will install it
-dpkg -l | grep -qw gawk || sudo apt-get install gawk -y
-
 wait 
 # remove the duplicate records in place
 gawk -i inplace '!a[$0]++' $blackListFile
