@@ -8,6 +8,7 @@ Buy me a coffee via paypal
 - because my previous development caused to block the youtube video itself
 - The new script has been working great for me for the last couple days
 # Option 1 : add the link to your gravity block list 
+```log in your pihole admin > click on settings > blocklists then add this link ```
 https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list
 
 
