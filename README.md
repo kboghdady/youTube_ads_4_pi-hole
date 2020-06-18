@@ -1,3 +1,7 @@
+Buy me a coffee via paypal 
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=U6D8YB3PEWTVW&item_name=Buy+me+a+coffee&currency_code=USD&source=url)
+
+
 # Script to add YouTube Ads DNS to Pi-hole black list
 
 # If you used my script before. 
@@ -36,5 +40,3 @@ Where the script location is /home/pi/youTube_ads_4_pi-hole/youtube.sh </br>
 more information about crontab https://crontab.guru </br>
 
 ## the List of DNS get updated daily
-Buy me 1$ coffee via paypal 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=U6D8YB3PEWTVW&item_name=Buy+me+a+coffee&currency_code=USD&source=url)
