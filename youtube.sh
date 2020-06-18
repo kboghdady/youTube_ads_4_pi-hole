@@ -34,3 +34,6 @@ wait
 gawk -i inplace '!a[$0]++' $blackListFile
 wait 
 gawk -i inplace '!a[$0]++' $blacklist
+
+## adding it to the blacklist in Pihole V5 
+pihole -b `cat /etc/pihole/black.list /etc/pihole/blacklist.txt`
