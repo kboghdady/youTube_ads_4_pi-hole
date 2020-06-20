@@ -33,6 +33,6 @@ gawk -i inplace '!a[$0]++' $blacklist
 
 ## adding it to the blacklist in Pihole V5 
 # only 200 Domains at once
-sudo xargs -a $blacklist -L500 pihole -b -nr
+sudo xargs -a $blacklist -L200 pihole -b -nr
 # restart dns  
 sudo pihole restartdns
