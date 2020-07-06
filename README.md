@@ -4,10 +4,8 @@ Buy me a coffee via paypal
 
 # Script to add YouTube Ads DNS to Pi-hole black list
 
-# If you used my script before. 
-- Please wipe your black list or use the command sudo pihole -f 
-- because my previous development caused to block the youtube video itself
-- The new script has been working great for me for the last couple days
+# You can add this link to your gravity list by going to http://piholeIPAddress/admin/groups-adlists.php
+```https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt```
 
 # How the script works
 - It will get the black.list from my github which is updated daily or every two days 
