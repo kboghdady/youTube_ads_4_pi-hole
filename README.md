@@ -5,7 +5,7 @@ Buy me a coffee via paypal
 # Script to add YouTube Ads DNS to Pi-hole black list
 
 # You can add this link to your gravity list by going to 
-http://piholeIPAddress/admin/groups-adlists.php
+http://piholeIPAddress/admin/groups-adlists.php  </br>
 ```https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt```
 
 # How the script works
