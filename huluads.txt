@@ -14,7 +14,6 @@ services.brightline.tv
 p.ads.roku.com
 hulu.hb-api.omtrdc.net
 ads-e-darwin.hulustream.com
-http-a-darwin.hulustream.com
 secure-gl.imrworldwide.com
 secure-us.imrworldwide.com
 ade.googlesyndication.com
