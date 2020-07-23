@@ -13,7 +13,6 @@ cdn-media.brightline.tv
 services.brightline.tv
 vortex.hulu.com
 p.ads.roku.com
-discover.hulu.com
 hulu.hb-api.omtrdc.net
 ads-e-darwin.hulustream.com
 http-a-darwin.hulustream.com
