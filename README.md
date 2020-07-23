@@ -8,6 +8,10 @@ Buy me a coffee via paypal
 http://piholeIPAddress/admin/groups-adlists.php  </br>
 ```https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt```
 
+Also, add script to update the gravity list containing these lines : 
+``` pihole -g ```
+``` sudo pihole restartdns ```
+
 # How the script works
 - It will get the black.list from my github which is updated daily or every two days 
 - It will update both the black.list and blacklist.txt files where the blocking of pihole happens
