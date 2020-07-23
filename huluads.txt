@@ -12,7 +12,6 @@ s-video.innovid.com
 cdn-media.brightline.tv
 services.brightline.tv
 p.ads.roku.com
-hulu.hb-api.omtrdc.net
 ads-e-darwin.hulustream.com
 secure-gl.imrworldwide.com
 secure-us.imrworldwide.com
