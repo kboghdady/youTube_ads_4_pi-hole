@@ -15,9 +15,7 @@ p.ads.roku.com
 hulu.hb-api.omtrdc.net
 ads-e-darwin.hulustream.com
 http-a-darwin.hulustream.com
-t2.hulu.com
 secure-gl.imrworldwide.com
-doppler.hulu.com
 secure-us.imrworldwide.com
 ade.googlesyndication.com
 pagead2.googlesyndication.com
@@ -39,4 +37,3 @@ pi.ispot.tv
 dts.innovid.com
 millercoors.demdex.net
 tps30.doubleverify.com
-
