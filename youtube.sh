@@ -9,6 +9,8 @@
 piholeIPV4=$(hostname -I |awk '{print $1}')
 piholeIPV6=$(hostname -I |awk '{print $2}')
 
+# This need to be chnaged to your actual repo dir on your machine
+repoDir='/root/youTube_ads_4_pi-hole'
 
 blackListFile='/etc/pihole/black.list'
 blacklist='/etc/pihole/blacklist.txt'
@@ -24,6 +26,12 @@ wait
 
 # check to see if gawk is installed. if not it will install it
 dpkg -l | grep -qw gawk || sudo apt-get install gawk -y
+
+# remove the domains from the ignore.list 
+while read line ;  do  sed -i "/.*$line.*/d" $repoDir/youtubelist.txt ; done < $repoDir/ignore.list
+while read line ;  do  sed -i "/.*$line.*/d" $repoDir/black.list ; done < $repoDir/ignore.list
+
+
 
 wait 
 # remove the duplicate records in place
