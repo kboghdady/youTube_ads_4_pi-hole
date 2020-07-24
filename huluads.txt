@@ -32,11 +32,9 @@ dts.innovid.com
 millercoors.demdex.net
 tps30.doubleverify.com
 ss-prod-ue1-notif-48.aws.adobess.com
-vortex.hulu.com
 cws-hulu.conviva.com
 pubads.g.doubleclick.net
 securepubads.g.doubleclick.net
-doppler.hulu.com
 secure-gg.imrworldwide.com
 beacon.krxd.net
 d.agkn.com
