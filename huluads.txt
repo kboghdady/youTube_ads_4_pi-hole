@@ -31,3 +31,4 @@ pi.ispot.tv
 dts.innovid.com
 millercoors.demdex.net
 tps30.doubleverify.com
+ss-prod-ue1-notif-48.aws.adobess.com
