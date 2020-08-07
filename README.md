@@ -3,13 +3,13 @@ Buy me a coffee via paypal
 
 ```
 Buy me Coffee with XLM GDQP2KPQGKIHYJGXNUIYOMHARUARCA7DJT5FO2FFOOKY3B2WSQHG4W37
-```</br>
+```
 ```
 Buy me Coffee with BitCoin 36fD957SDWHJYYzuH2xmceJ6T2qE9vNiV4
-```</br>
+```
 ```
 Buy me Coffee with XRP rw2ciyaNshpHe7bCHo4bRWq6pqqynnWKQg
-``` </br>
+``` 
 
 # Script to add YouTube Ads DNS to Pi-hole black list
 
