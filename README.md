@@ -11,6 +11,11 @@ Buy me Coffee with BitCoin 36fD957SDWHJYYzuH2xmceJ6T2qE9vNiV4
 Buy me Coffee with XRP rw2ciyaNshpHe7bCHo4bRWq6pqqynnWKQg
 ``` 
 
+```
+Buy me Coffee with BAT 0xb9f4845dbEd1FB1Dae90D8e203037B5623B66666
+``` 
+
+
 # Script to add YouTube Ads DNS to Pi-hole black list
 
 # You can add this link to your gravity list by going to 
