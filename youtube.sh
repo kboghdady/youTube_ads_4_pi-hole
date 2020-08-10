@@ -49,6 +49,6 @@ sudo xargs -a $blacklist -L200 pihole -b -nr
 sudo pihole restartdns
 
 #### only enable if you would like to share your youtube logs to be be added to my list 
-## sharedlogs=`sudo /usr/bin/sqlite3 /etc/pihole/pihole-FTL.db "select domain from queries where domain like '%googlevideo.com'" |tr '\n' ','`
+## sharedlogs=`sudo /usr/bin/sqlite3 /etc/pihole/pihole-FTL.db "select domain from queries where domain like '%googlevideo.com'" |uniq -d |tr '\n' ','`
 ## curl -sL "https://docs.google.com/forms/d/e/1FAIpQLSd_j3lQs_B7S3Hz3aA3IkwYMF4my0DnBMZFAn3e9grZo61VFQ/formResponse?usp=pp_url&entry.275594062=$sharedlogs"
 
