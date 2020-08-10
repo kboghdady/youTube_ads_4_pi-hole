@@ -47,3 +47,8 @@ while read ignoredDns ; do /usr/bin/sqlite3 /etc/pihole/gravity.db "delete from 
 sudo xargs -a $blacklist -L200 pihole -b -nr
 # restart dns  
 sudo pihole restartdns
+
+#### only enable if you would like to share your youtube logs to be be added to my list 
+## sharedlogs=`sudo cat /var/log/pihole.log* |grep googlevideo |awk '{print $6}'|tr '\n' ','`
+## curl -sL "https://docs.google.com/forms/d/e/1FAIpQLSd_j3lQs_B7S3Hz3aA3IkwYMF4my0DnBMZFAn3e9grZo61VFQ/formResponse?usp=pp_url&entry.275594062=$sharedlogs"
+
