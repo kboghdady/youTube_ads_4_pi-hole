@@ -28,8 +28,8 @@ wait
 dpkg -l | grep -qw gawk || sudo apt-get install gawk -y
 
 # remove the domains from the ignore.list 
-while read line ;  do  sed -i "/.*$line.*/d" $repoDir/youtubelist.txt ; done < $repoDir/ignore.list
-while read line ;  do  sed -i "/.*$line.*/d" $repoDir/black.list ; done < $repoDir/ignore.list
+while read line ;  do  sed -i "/'$line'/d" $repoDir/youtubelist.txt ; done < $repoDir/ignore.list
+while read line ;  do  sed -i "/'$line'/d" $repoDir/black.list ; done < $repoDir/ignore.list
 
 
 
