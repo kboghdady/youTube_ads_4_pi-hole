@@ -1471,7 +1471,6 @@ r19---sn-a5mekney.googlevideo.com
 r20---sn-a5mekney.googlevideo.com
 r1---sn-4g5e6ns6.googlevideo.com
 r2---sn-4g5e6ns6.googlevideo.com
-r3---sn-4g5e6ns6.googlevideo.com
 r4---sn-4g5e6ns6.googlevideo.com
 r5---sn-4g5e6ns6.googlevideo.com
 r6---sn-4g5e6ns6.googlevideo.com
