@@ -42,10 +42,14 @@ git clone https://github.com/kboghdady/youTube_ads_4_pi-hole.git
 ```
 cd youTube_ads_4_pi-hole
 ```
+2- Change where the repo directory in youtube.sh 
+```
+repoDir='/pi/youTube_ads_4_pi-hole'
+```
 ```
 sudo chmod a+x youtube.sh
 ```
-2- Create a scheduled task to run the script: </br>
+3- Create a scheduled task to run the script: </br>
 ```
 sudo crontab -e 
 ```
