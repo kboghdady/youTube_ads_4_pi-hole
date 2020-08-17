@@ -46,14 +46,15 @@ cd youTube_ads_4_pi-hole
 ```
 repoDir='/pi/youTube_ads_4_pi-hole'
 ```
+3- Make the script executable
 ```
 sudo chmod a+x youtube.sh
 ```
-3- Create a scheduled task to run the script: </br>
+4- Create a scheduled task to run the script: </br>
 ```
 sudo crontab -e 
 ```
-Add this line to make it runs every 1 hour, but you can change it to whatever you like</br>
+5-Add this line to make it runs every 1 hour, but you can change it to whatever you like</br>
 ```
 0 */1 * * * sudo /home/pi/youTube_ads_4_pi-hole/youtube.sh >/dev/null 
 ```
