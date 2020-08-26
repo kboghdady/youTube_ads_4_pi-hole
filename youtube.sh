@@ -22,6 +22,10 @@ sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/mas
 sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list'\
 >>$blackListFile
 
+#Enable if you want to include the list added by the crowed
+#sudo curl 'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/crowed_list.txt'\
+#>>$blackListFile
+
 wait 
 
 # check to see if gawk is installed. if not it will install it
