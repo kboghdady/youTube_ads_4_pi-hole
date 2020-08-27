@@ -27,6 +27,12 @@ and the list added by the crowed </br>
 Also, add script to update the gravity list containing these lines : 
 ``` pihole -g ```
 ``` sudo pihole restartdns ```
+if you experince youtube loops or blocking to the actual video while using the gravity</br>
+Please clear the gravity domain list as it some times keep the ignore list :
+```
+/usr/bin/sqlite3 /etc/pihole/gravity.db "delete from gravity where domain like '%googlevideo.com%' "
+pihole -g
+```
 
 # How the script works
 - It will get the black.list from my github which is updated daily or every two days 
