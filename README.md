@@ -73,3 +73,5 @@ more information about crontab https://crontab.guru </br>
 ```
 /usr/bin/sqlite3 /etc/pihole/gravity.db "delete from domainlist where domain like '%googlevideo.com%' "
 ```
+# NOTE : if you are using the default pihole gravity make sure to whitelit s.youtube.com which blocks the videos
+this default list has it : https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
