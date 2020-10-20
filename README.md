@@ -75,3 +75,24 @@ more information about crontab https://crontab.guru </br>
 ```
 # NOTE : if you are using the default pihole gravity make sure to whitelit s.youtube.com which blocks the videos
 this default list has it : https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+
+# How to uninstall
+
+Steps: </br></br>
+
+1- Change where the repo directory in uninstall.sh 
+```
+repoDir='/pi/youTube_ads_4_pi-hole'
+```
+2- Make the script executable
+```
+sudo chmod a+x uninstall.sh
+```
+3- Remove the scheduled task to run the script: </br>
+```
+sudo crontab -e 
+```
+4-Remove this line</br>
+```
+0 */1 * * * sudo /home/pi/youTube_ads_4_pi-hole/youtube.sh >/dev/null 
+```
