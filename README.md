@@ -96,3 +96,5 @@ sudo crontab -e
 ```
 0 */1 * * * sudo /home/pi/youTube_ads_4_pi-hole/youtube.sh >/dev/null 
 ```
+
+Remove the lists added at: http://piholeIPAddress/admin/groups-adlists.php.
