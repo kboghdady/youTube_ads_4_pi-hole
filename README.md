@@ -21,7 +21,7 @@ Buy me Coffee with BAT 0xb9f4845dbEd1FB1Dae90D8e203037B5623B66666
 # You can add this link to your gravity list by going to 
 http://piholeIPAddress/admin/groups-adlists.php  </br>
 ```https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt``` </br></br>
-and the list added by the crowed </br>
+and the list added by the crowed <font color="red">Keep in mind the crowd list it is all DNS gathered by the crowd WITHOUT filtering the block DNS </font> </br>
 ```https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/crowed_list.txt```
 
 Also, add script to update the gravity list containing these lines : 
