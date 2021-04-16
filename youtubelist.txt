@@ -11662,3 +11662,6 @@ r17.sn-5uaezn7e.googlevideo.com
 r18.sn-5uaezn7e.googlevideo.com
 r19.sn-5uaezn7e.googlevideo.com
 r20.sn-5uaezn7e.googlevideo.com
+r3---sn-bavcx-hoay.googlevideo.com
+r8---sn-bavcx-hoaee.googlevideo.com
+r3---sn-bavcx-jxcs.googlevideo.com
