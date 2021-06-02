@@ -44,7 +44,7 @@ wait
 gawk -i inplace '!a[$0]++' $blacklist
 
 # this in case you have an old blocked domain the the database 
-while read ignoredDns ; do /usr/bin/sqlite3 /etc/pihole/gravity.db "delete from domainlist where domain like '%$ignoredDns%' " ; done < ignore.list 
+while read ignoredDns ; do /usr/bin/sqlite3 /etc/pihole/gravity.db "delete from domainlist where domain like '%$ignoredDns%' " ; done < $repoDir/ignore.list 
 	
 ## adding it to the blacklist in Pihole V5 
 # only 200 Domains at once
