@@ -9,8 +9,8 @@
 piholeIPV4=$(hostname -I |awk '{print $1}')
 piholeIPV6=$(hostname -I |awk '{print $2}')
 
-# This need to be chnaged to your actual repo dir on your machine
-repoDir='/pi/youTube_ads_4_pi-hole'
+# This may be changed to your actual repo dir on your machine
+repoDir="$(dirname "$0")"
 
 blackListFile='/etc/pihole/black.list'
 blacklist='/etc/pihole/blacklist.txt'
