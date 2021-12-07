@@ -21317,3 +21317,9 @@ Dec  7 20:57:16 dnsmasq[322]: query[A] r1---sn-o097znsk.googlevideo.com from 10.
 Dec  7 20:57:16 dnsmasq[322]: gravity blocked r1---sn-o097znsk.googlevideo.com is 0.0.0.0
 Dec  7 20:57:37 dnsmasq[322]: query[A] r2---sn-jvhj5nu-nh4z.googlevideo.com from 10.0.0.22
 Dec  7 20:57:37 dnsmasq[322]: gravity blocked r2---sn-jvhj5nu-nh4z.googlevideo.com is 0.0.0.0
+Dec  7 20:58:17 dnsmasq[322]: query[A] r3---sn-o097znl6.googlevideo.com from 10.0.0.19
+Dec  7 20:58:17 dnsmasq[322]: gravity blocked r3---sn-o097znl6.googlevideo.com is 0.0.0.0
+Dec  7 20:58:20 dnsmasq[322]: query[A] r3---sn-a5mekn6d.googlevideo.com from 10.0.0.19
+Dec  7 20:58:20 dnsmasq[322]: gravity blocked r3---sn-a5mekn6d.googlevideo.com is 0.0.0.0
+Dec  7 20:58:37 dnsmasq[322]: query[A] r2---sn-jvhj5nu-nh4z.googlevideo.com from 10.0.0.22
+Dec  7 20:58:37 dnsmasq[322]: gravity blocked r2---sn-jvhj5nu-nh4z.googlevideo.com is 0.0.0.0
