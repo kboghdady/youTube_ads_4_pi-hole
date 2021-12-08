@@ -25015,3 +25015,7 @@ Dec  8 20:39:02 dnsmasq[322]: reply r3.sn-o097znsz.googlevideo.com is 74.125.166
 Dec  8 20:39:02 dnsmasq[322]: reply r3.sn-o097znsz.googlevideo.com is NODATA
 Dec  8 20:39:02 dnsmasq[322]: query[HTTPS] r3.sn-o097znsz.googlevideo.com from 10.0.0.20
 Dec  8 20:39:02 dnsmasq[322]: forwarded r3.sn-o097znsz.googlevideo.com to 1.0.0.1
+Dec  8 21:26:54 dnsmasq[322]: query[A] r4---sn-jvhj5nu-nh4z.googlevideo.com from 10.0.0.152
+Dec  8 21:26:54 dnsmasq[322]: forwarded r4---sn-jvhj5nu-nh4z.googlevideo.com to 1.1.1.1
+Dec  8 21:26:54 dnsmasq[322]: reply r4---sn-jvhj5nu-nh4z.googlevideo.com is <CNAME>
+Dec  8 21:26:54 dnsmasq[322]: reply r4.sn-jvhj5nu-nh4z.googlevideo.com is 136.22.133.207
