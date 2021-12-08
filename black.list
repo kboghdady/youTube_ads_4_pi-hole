@@ -22780,3 +22780,111 @@ Dec  8 05:02:21 dnsmasq[322]: reply manifest.googlevideo.com is <HTTPS>
 Dec  8 05:02:28 dnsmasq[322]: query[A] r1---sn-n4v7snee.googlevideo.com from 10.0.0.19
 Dec  8 05:02:28 dnsmasq[322]: cached r1---sn-n4v7snee.googlevideo.com is <CNAME>
 Dec  8 05:02:28 dnsmasq[322]: cached r1.sn-n4v7snee.googlevideo.com is 173.194.167.166
+Dec  8 05:12:18 dnsmasq[322]: query[A] redirector.googlevideo.com from 10.0.0.22
+Dec  8 05:12:18 dnsmasq[322]: forwarded redirector.googlevideo.com to 1.0.0.1
+Dec  8 05:12:18 dnsmasq[322]: reply redirector.googlevideo.com is 142.250.191.78
+Dec  8 05:12:20 dnsmasq[322]: query[A] r2---sn-o097znlr.googlevideo.com from 10.0.0.22
+Dec  8 05:12:20 dnsmasq[322]: gravity blocked r2---sn-o097znlr.googlevideo.com is 0.0.0.0
+Dec  8 05:12:20 dnsmasq[322]: query[A] r5---sn-n4v7sney.googlevideo.com from 10.0.0.22
+Dec  8 05:12:20 dnsmasq[322]: forwarded r5---sn-n4v7sney.googlevideo.com to 1.0.0.1
+Dec  8 05:12:20 dnsmasq[322]: reply r5---sn-n4v7sney.googlevideo.com is <CNAME>
+Dec  8 05:12:20 dnsmasq[322]: reply r5.sn-n4v7sney.googlevideo.com is 74.125.103.42
+Dec  8 05:12:20 dnsmasq[322]: query[A] manifest.googlevideo.com from 10.0.0.22
+Dec  8 05:12:20 dnsmasq[322]: forwarded manifest.googlevideo.com to 1.0.0.1
+Dec  8 05:12:20 dnsmasq[322]: query[HTTPS] manifest.googlevideo.com from 10.0.0.22
+Dec  8 05:12:20 dnsmasq[322]: reply manifest.googlevideo.com is 142.251.32.46
+Dec  8 05:12:20 dnsmasq[322]: reply manifest.googlevideo.com is <HTTPS>
+Dec  8 05:12:21 dnsmasq[322]: query[A] r2---sn-n4v7sney.googlevideo.com from 10.0.0.22
+Dec  8 05:12:21 dnsmasq[322]: forwarded r2---sn-n4v7sney.googlevideo.com to 1.0.0.1
+Dec  8 05:12:21 dnsmasq[322]: reply r2---sn-n4v7sney.googlevideo.com is <CNAME>
+Dec  8 05:12:21 dnsmasq[322]: reply r2.sn-n4v7sney.googlevideo.com is 74.125.103.39
+Dec  8 05:12:21 dnsmasq[322]: query[A] r2---sn-n4v7sney.googlevideo.com from 10.0.0.19
+Dec  8 05:12:21 dnsmasq[322]: cached r2---sn-n4v7sney.googlevideo.com is <CNAME>
+Dec  8 05:12:21 dnsmasq[322]: cached r2.sn-n4v7sney.googlevideo.com is 74.125.103.39
+Dec  8 05:12:26 dnsmasq[322]: query[HTTPS] r2.sn-n4v7sney.googlevideo.com from 10.0.0.22
+Dec  8 05:12:26 dnsmasq[322]: forwarded r2.sn-n4v7sney.googlevideo.com to 1.0.0.1
+Dec  8 05:12:26 dnsmasq[322]: reply r2.sn-n4v7sney.googlevideo.com is NODATA
+Dec  8 05:12:26 dnsmasq[322]: query[A] r5---sn-n4v7sney.googlevideo.com from 10.0.0.19
+Dec  8 05:12:26 dnsmasq[322]: cached r5---sn-n4v7sney.googlevideo.com is <CNAME>
+Dec  8 05:12:26 dnsmasq[322]: cached r5.sn-n4v7sney.googlevideo.com is 74.125.103.42
+Dec  8 05:12:27 dnsmasq[322]: query[A] r5---sn-n4v7sney.googlevideo.com from 10.0.0.19
+Dec  8 05:12:27 dnsmasq[322]: cached r5---sn-n4v7sney.googlevideo.com is <CNAME>
+Dec  8 05:12:27 dnsmasq[322]: cached r5.sn-n4v7sney.googlevideo.com is 74.125.103.42
+Dec  8 05:12:42 dnsmasq[322]: query[HTTPS] r5.sn-n4v7sney.googlevideo.com from 10.0.0.22
+Dec  8 05:12:42 dnsmasq[322]: forwarded r5.sn-n4v7sney.googlevideo.com to 1.0.0.1
+Dec  8 05:12:42 dnsmasq[322]: reply r5.sn-n4v7sney.googlevideo.com is NODATA
+Dec  8 05:12:42 dnsmasq[322]: query[A] r2---sn-n4v7sn76.googlevideo.com from 10.0.0.22
+Dec  8 05:12:42 dnsmasq[322]: forwarded r2---sn-n4v7sn76.googlevideo.com to 1.0.0.1
+Dec  8 05:12:42 dnsmasq[322]: reply r2---sn-n4v7sn76.googlevideo.com is <CNAME>
+Dec  8 05:12:42 dnsmasq[322]: reply r2.sn-n4v7sn76.googlevideo.com is 74.125.170.232
+Dec  8 05:12:42 dnsmasq[322]: query[HTTPS] manifest.googlevideo.com from 10.0.0.22
+Dec  8 05:12:42 dnsmasq[322]: forwarded manifest.googlevideo.com to 1.0.0.1
+Dec  8 05:12:42 dnsmasq[322]: reply manifest.googlevideo.com is <HTTPS>
+Dec  8 05:12:43 dnsmasq[322]: query[A] r2---sn-n4v7sn76.googlevideo.com from 10.0.0.19
+Dec  8 05:12:43 dnsmasq[322]: cached r2---sn-n4v7sn76.googlevideo.com is <CNAME>
+Dec  8 05:12:43 dnsmasq[322]: cached r2.sn-n4v7sn76.googlevideo.com is 74.125.170.232
+Dec  8 05:21:16 dnsmasq[322]: query[A] redirector.googlevideo.com from 10.0.0.182
+Dec  8 05:21:16 dnsmasq[322]: forwarded redirector.googlevideo.com to 1.0.0.1
+Dec  8 05:21:16 dnsmasq[322]: reply redirector.googlevideo.com is 142.250.191.78
+Dec  8 05:21:16 dnsmasq[322]: query[A] r5---sn-n4v7sney.googlevideo.com from 10.0.0.182
+Dec  8 05:21:16 dnsmasq[322]: forwarded r5---sn-n4v7sney.googlevideo.com to 1.0.0.1
+Dec  8 05:21:16 dnsmasq[322]: reply r5---sn-n4v7sney.googlevideo.com is <CNAME>
+Dec  8 05:21:16 dnsmasq[322]: reply r5.sn-n4v7sney.googlevideo.com is 74.125.103.42
+Dec  8 05:21:41 dnsmasq[322]: query[A] r2---sn-o097znsk.googlevideo.com from 10.0.0.182
+Dec  8 05:21:41 dnsmasq[322]: gravity blocked r2---sn-o097znsk.googlevideo.com is 0.0.0.0
+Dec  8 05:21:49 dnsmasq[322]: query[A] r2---sn-a5meknzk.googlevideo.com from 10.0.0.182
+Dec  8 05:21:49 dnsmasq[322]: gravity blocked r2---sn-a5meknzk.googlevideo.com is 0.0.0.0
+Dec  8 05:22:25 dnsmasq[322]: query[A] r2---sn-n4v7sn76.googlevideo.com from 10.0.0.22
+Dec  8 05:22:25 dnsmasq[322]: forwarded r2---sn-n4v7sn76.googlevideo.com to 1.0.0.1
+Dec  8 05:22:25 dnsmasq[322]: query[HTTPS] r2---sn-n4v7sn76.googlevideo.com from 10.0.0.22
+Dec  8 05:22:25 dnsmasq[322]: reply r2---sn-n4v7sn76.googlevideo.com is <CNAME>
+Dec  8 05:22:25 dnsmasq[322]: reply r2.sn-n4v7sn76.googlevideo.com is 74.125.170.232
+Dec  8 05:22:25 dnsmasq[322]: query[HTTPS] r2.sn-n4v7sn76.googlevideo.com from 10.0.0.22
+Dec  8 05:22:25 dnsmasq[322]: forwarded r2.sn-n4v7sn76.googlevideo.com to 1.0.0.1
+Dec  8 05:22:25 dnsmasq[322]: reply r2.sn-n4v7sn76.googlevideo.com is NODATA
+Dec  8 05:22:37 dnsmasq[322]: query[A] r2---sn-o097znsk.googlevideo.com from 10.0.0.19
+Dec  8 05:22:37 dnsmasq[322]: gravity blocked r2---sn-o097znsk.googlevideo.com is 0.0.0.0
+Dec  8 05:22:41 dnsmasq[322]: query[A] r2---sn-n4v7snee.googlevideo.com from 10.0.0.19
+Dec  8 05:22:41 dnsmasq[322]: forwarded r2---sn-n4v7snee.googlevideo.com to 1.0.0.1
+Dec  8 05:22:41 dnsmasq[322]: reply r2---sn-n4v7snee.googlevideo.com is <CNAME>
+Dec  8 05:22:41 dnsmasq[322]: reply r2.sn-n4v7snee.googlevideo.com is 173.194.167.167
+Dec  8 05:23:51 dnsmasq[322]: query[A] r2---sn-o097znsk.googlevideo.com from 10.0.0.19
+Dec  8 05:23:51 dnsmasq[322]: gravity blocked r2---sn-o097znsk.googlevideo.com is 0.0.0.0
+Dec  8 05:26:07 dnsmasq[322]: query[A] r2---sn-o097znsk.googlevideo.com from 10.0.0.19
+Dec  8 05:26:07 dnsmasq[322]: gravity blocked r2---sn-o097znsk.googlevideo.com is 0.0.0.0
+Dec  8 05:27:14 dnsmasq[322]: query[A] r2---sn-n4v7sn76.googlevideo.com from 10.0.0.22
+Dec  8 05:27:14 dnsmasq[322]: cached r2---sn-n4v7sn76.googlevideo.com is <CNAME>
+Dec  8 05:27:14 dnsmasq[322]: cached r2.sn-n4v7sn76.googlevideo.com is 74.125.170.232
+Dec  8 05:27:14 dnsmasq[322]: query[HTTPS] r2---sn-n4v7sn76.googlevideo.com from 10.0.0.22
+Dec  8 05:27:14 dnsmasq[322]: forwarded r2---sn-n4v7sn76.googlevideo.com to 1.0.0.1
+Dec  8 05:27:14 dnsmasq[322]: reply r2---sn-n4v7sn76.googlevideo.com is <CNAME>
+Dec  8 05:27:14 dnsmasq[322]: reply r2.sn-n4v7sn76.googlevideo.com is NODATA
+Dec  8 05:27:14 dnsmasq[322]: query[HTTPS] r2.sn-n4v7sn76.googlevideo.com from 10.0.0.22
+Dec  8 05:27:14 dnsmasq[322]: forwarded r2.sn-n4v7sn76.googlevideo.com to 1.0.0.1
+Dec  8 05:28:23 dnsmasq[322]: query[A] r2---sn-o097znsk.googlevideo.com from 10.0.0.19
+Dec  8 05:28:23 dnsmasq[322]: gravity blocked r2---sn-o097znsk.googlevideo.com is 0.0.0.0
+Dec  8 05:32:04 dnsmasq[322]: query[A] r2---sn-o097znsk.googlevideo.com from 10.0.0.19
+Dec  8 05:32:04 dnsmasq[322]: gravity blocked r2---sn-o097znsk.googlevideo.com is 0.0.0.0
+Dec  8 05:37:48 dnsmasq[322]: query[A] r2---sn-o097znsk.googlevideo.com from 10.0.0.19
+Dec  8 05:37:48 dnsmasq[322]: gravity blocked r2---sn-o097znsk.googlevideo.com is 0.0.0.0
+Dec  8 05:43:38 dnsmasq[322]: query[A] r2---sn-o097znsk.googlevideo.com from 10.0.0.182
+Dec  8 05:43:38 dnsmasq[322]: gravity blocked r2---sn-o097znsk.googlevideo.com is 0.0.0.0
+Dec  8 05:47:00 dnsmasq[322]: query[A] r2---sn-o097znsk.googlevideo.com from 10.0.0.19
+Dec  8 05:47:00 dnsmasq[322]: gravity blocked r2---sn-o097znsk.googlevideo.com is 0.0.0.0
+Dec  8 06:01:46 dnsmasq[322]: query[A] r2---sn-o097znsk.googlevideo.com from 10.0.0.19
+Dec  8 06:01:46 dnsmasq[322]: gravity blocked r2---sn-o097znsk.googlevideo.com is 0.0.0.0
+Dec  8 06:07:48 dnsmasq[322]: query[A] redirector.googlevideo.com from 10.0.0.152
+Dec  8 06:07:48 dnsmasq[322]: forwarded redirector.googlevideo.com to 1.1.1.1
+Dec  8 06:07:48 dnsmasq[322]: reply redirector.googlevideo.com is 142.250.72.206
+Dec  8 06:07:49 dnsmasq[322]: query[A] r6---sn-n4v7sne7.googlevideo.com from 10.0.0.152
+Dec  8 06:07:49 dnsmasq[322]: forwarded r6---sn-n4v7sne7.googlevideo.com to 1.1.1.1
+Dec  8 06:07:49 dnsmasq[322]: reply r6---sn-n4v7sne7.googlevideo.com is <CNAME>
+Dec  8 06:07:49 dnsmasq[322]: reply r6.sn-n4v7sne7.googlevideo.com is 173.194.166.108
+Dec  8 06:09:31 dnsmasq[322]: query[A] r3---sn-o097znss.googlevideo.com from 10.0.0.152
+Dec  8 06:09:31 dnsmasq[322]: gravity blocked r3---sn-o097znss.googlevideo.com is 0.0.0.0
+Dec  8 06:09:31 dnsmasq[322]: query[A] r2---sn-o097znze.googlevideo.com from 10.0.0.152
+Dec  8 06:09:31 dnsmasq[322]: gravity blocked r2---sn-o097znze.googlevideo.com is 0.0.0.0
+Dec  8 06:09:47 dnsmasq[322]: query[A] r3---sn-o097znze.googlevideo.com from 10.0.0.152
+Dec  8 06:09:47 dnsmasq[322]: gravity blocked r3---sn-o097znze.googlevideo.com is 0.0.0.0
+Dec  8 06:09:54 dnsmasq[322]: query[A] r3---sn-a5mlrnek.googlevideo.com from 10.0.0.152
+Dec  8 06:09:54 dnsmasq[322]: gravity blocked r3---sn-a5mlrnek.googlevideo.com is 0.0.0.0
