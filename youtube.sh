@@ -50,7 +50,7 @@ while read ignoredDns ; do /usr/bin/sqlite3 /etc/pihole/gravity.db "delete from 
 # only 200 Domains at once
 sudo xargs -a $blacklist -L200 pihole -b -nr
 # restart dns  
-sudo pihole restartdns
+sudo pihole restartdns reload-lists
 
 #### only disable if you don't like to share your youtube logs to be be added to my list 
 sharedlogs=`sudo /usr/bin/sqlite3 /etc/pihole/pihole-FTL.db "select domain from queries where domain like '%googlevideo.com'" |uniq -d |tr '\n' ','`
