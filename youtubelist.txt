@@ -16511,3 +16511,7 @@ r2---sn-jvhj5nu-nh4s.googlevideo.com
 r2.sn-jvhj5nu-nh4s.googlevideo.com
 rr4---sn-o097znss.googlevideo.com
 rr4.sn-o097znss.googlevideo.com
+r5---sn-jvhj5nu-nh4s.googlevideo.com
+r5.sn-jvhj5nu-nh4s.googlevideo.com
+rr2---sn-o097znsk.googlevideo.com
+rr2.sn-o097znsk.googlevideo.com
