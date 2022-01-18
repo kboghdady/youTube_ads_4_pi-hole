@@ -16813,3 +16813,5 @@ r2.sn-5ualdn7z.googlevideo.com
 r5---sn-vgqsrnsy.googlevideo.com
 r5.sn-vgqsrnsy.googlevideo.com
 r2.sn-nx5s7n7s.googlevideo.com
+r3.sn-5ualdn7d.googlevideo.com
+r3.sn-5hnedn7e.googlevideo.com
