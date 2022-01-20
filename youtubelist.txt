@@ -16821,3 +16821,6 @@ rr3---sn-q4fl6nsr.googlevideo.com
 rr3.sn-q4fl6nsr.googlevideo.com
 r1---sn-vgqsrnsr.googlevideo.com
 r1.sn-vgqsrnsr.googlevideo.com
+r2.sn-5ualdn7d.googlevideo.com
+r4---sn-aigl6ns6.googlevideo.com
+r4.sn-aigl6ns6.googlevideo.com
