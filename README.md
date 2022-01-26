@@ -1,4 +1,4 @@
-Blocking status :white_check_mark: --Block most Ads without blocking much of the actual youtube </br>
+Blocking status :warning: --Blocking issues (Working to fix that) </br>
 Buy me a coffee via paypal 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/KBoghdady?locale.x=en_US)
 
