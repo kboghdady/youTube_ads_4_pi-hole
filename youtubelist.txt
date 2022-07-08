@@ -14998,7 +14998,6 @@ r17---sn-4g5edndl.googlevideo.com
 r18---sn-4g5edndl.googlevideo.com
 r19---sn-4g5edndl.googlevideo.com
 r20---sn-4g5edndl.googlevideo.com
-<<<<<<< HEAD
 r1.sn-4g5edndl.googlevideo.com
 r2.sn-4g5edndl.googlevideo.com
 r3.sn-4g5edndl.googlevideo.com
@@ -16454,9 +16453,6 @@ rr4.sn-o097znsk.googlevideo.com
 rr4---sn-o097znsr.googlevideo.com
 rr4.sn-o097znsr.googlevideo.com
 r4.sn-a5mlrn7k.googlevideo.com
-=======
-rr3---sn-jvhj5nu-nh4s.googlevideo.com 
->>>>>>> 6dbd05af56bad9d2acdfb67ff9c9b1d5f0e1da7a
 rr6---sn-a5mekner.googlevideo.com
 rr6.sn-a5mekner.googlevideo.com
 rr5---sn-o097znsk.googlevideo.com
