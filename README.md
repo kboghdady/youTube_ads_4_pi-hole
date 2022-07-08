@@ -19,7 +19,7 @@ Buy me Coffee with BAT 0xb9f4845dbEd1FB1Dae90D8e203037B5623B66666
 Buy me Coffee with XMR
 46RGtwR2gS3UsjCtmzX7mGAXsXj6ui4ZbiwRhbeMuB7jHYUHhxot5JgRVwVT3dpnQqRk9qsd4N6NXhsjREKhfMmCUTMffLq
 ```
-# Script to add YouTube Ads DNS to Pi-hole black list
+# Script to add YouTube Ads DNS to Pi-hole block list
 
 # You can add this link to your gravity list by going to 
 http://piholeIPAddress/admin/groups-adlists.php  </br>
@@ -38,8 +38,8 @@ pihole -g
 ```
 
 # How the script works
-- It will get the black.list from my github which is updated daily or every two days 
-- It will update both the black.list and blacklist.txt files where the blocking of pihole happens
+- It will get the block.list from my github which is updated daily or every two days 
+- It will update both the block.list and blocklist.txt files where the blocking of pihole happens
 - It will remove any dupiclates 
 
 it will be more effective if you add it the crontab </br>
@@ -72,9 +72,9 @@ sudo crontab -e
 Where the script location is /home/pi/youTube_ads_4_pi-hole/youtube.sh </br>
 more information about crontab https://crontab.guru </br>
 
-# if you want to delete all blacklist from your database in case of issues 
+# if you want to delete all blocklist from your database in case of issues 
 ```
 /usr/bin/sqlite3 /etc/pihole/gravity.db "delete from domainlist where domain like '%googlevideo.com%' "
 ```
-# NOTE : if you are using the default pihole gravity make sure to whitelit s.youtube.com which blocks the videos
+# NOTE : if you are using the default pihole gravity make sure to allowlit s.youtube.com which blocks the videos
 this default list has it : https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
