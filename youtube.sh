@@ -31,6 +31,9 @@ wait
 # check to see if gawk is installed. if not it will install it
 dpkg -l | grep -qw gawk || sudo apt-get install gawk -y
 
+# check to see if sqlite is installed. if not it will install it
+dpkg -l | grep -qw sqlite || sudo apt-get install sqlite -y
+
 # remove the domains from the ignore.list 
 while read line ;  do  sed -i "/.*$line.*/d" $repoDir/youtubelist.txt ; done < $repoDir/ignore.list
 while read line ;  do  sed -i "/.*$line.*/d" $repoDir/black.list ; done < $repoDir/ignore.list
@@ -44,7 +47,7 @@ wait
 gawk -i inplace '!a[$0]++' $blacklist
 
 # this in case you have an old blocked domain the the database 
-while read ignoredDns ; do /usr/bin/sqlite3 /etc/pihole/gravity.db "delete from domainlist where domain like '%$ignoredDns%' " ; done < ignore.list 
+while read ignoredDns ; do /usr/bin/sqlite3 /etc/pihole/gravity.db "delete from domainlist where domain like '%$ignoredDns%' " ; done < $repoDir/ignore.list
 	
 ## adding it to the blacklist in Pihole V5 
 # only 200 Domains at once
