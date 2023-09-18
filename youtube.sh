@@ -9,7 +9,7 @@
 piholeIPV4=$(hostname -I |awk '{print $1}')
 piholeIPV6=$(hostname -I |awk '{print $2}')
 
-# This need to be chnaged to your actual repo dir on your machine
+# This need to be changed to your actual repo dir on your machine
 repoDir=$(pwd)
 
 blackListFile='/etc/pihole/black.list'
