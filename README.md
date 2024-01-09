@@ -67,7 +67,7 @@ sudo crontab -e
 ```
 5-Add this line to make it runs every 1 hour, but you can change it to whatever you like</br>
 ```
-0 */1 * * * sudo /home/pi/youTube_ads_4_pi-hole/youtube.sh >/dev/null 
+0 */1 * * * sudo bash /home/pi/youTube_ads_4_pi-hole/youtube.sh >/dev/null 
 ```
 Where the script location is /home/pi/youTube_ads_4_pi-hole/youtube.sh </br>
 more information about crontab https://crontab.guru </br>
