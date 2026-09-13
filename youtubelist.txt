@@ -16848,6 +16848,7 @@ rr6.sn-a5mlrn7s.googlevideo.com
 rr6.sn-a5mlrnes.googlevideo.com
 rr6.sn-a5mlrnez.googlevideo.com
 rr6.sn-o097znl6.googlevideo.com
+securepubads.g.doubleclick.net
 static.doubleclick.net
 stats.g.doubleclick.net
 tpc.googlesyndication.com
