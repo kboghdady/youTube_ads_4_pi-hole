@@ -13350,7 +13350,7 @@ r6---sn-4g5lznes.googlevideo.com
 r6---sn-4g5lzney.googlevideo.com
 r6---sn-4g5lznez.googlevideo.com
 r6---sn-4g5lznl7.googlevideo.com
-r6---sn-4gxx-25gee.googlevideo.com 
+r6---sn-4gxx-25gee.googlevideo.com
 r6---sn-5hne6n7e.googlevideo.com
 r6---sn-5hne6n7l.googlevideo.com
 r6---sn-5hne6n7s.googlevideo.com
@@ -14173,7 +14173,7 @@ r7---sn-4g5lznes.googlevideo.com
 r7---sn-4g5lzney.googlevideo.com
 r7---sn-4g5lznez.googlevideo.com
 r7---sn-4g5lznl7.googlevideo.com
-r7---sn-4gxx-25ge7.googlevideo.com 
+r7---sn-4gxx-25ge7.googlevideo.com
 r7---sn-5hne6n7e.googlevideo.com
 r7---sn-5hne6n7l.googlevideo.com
 r7---sn-5hne6n7s.googlevideo.com
@@ -16612,7 +16612,7 @@ rr2---sn-a5msenes.googlevideo.com
 rr2---sn-jvhj5nu-nh4l.googlevideo.com
 rr2---sn-jvhj5nu-nh4s.googlevideo.com
 rr2---sn-jvhj5nu-nh4z.googlevideo.com
-rr2---sn-n4v7snl7.googlevideo.com 
+rr2---sn-n4v7snl7.googlevideo.com
 rr2---sn-o097znlk.googlevideo.com
 rr2---sn-o097znlr.googlevideo.com
 rr2---sn-o097znsk.googlevideo.com
@@ -16666,7 +16666,6 @@ rr3---sn-a5msenek.googlevideo.com
 rr3---sn-a5msenes.googlevideo.com
 rr3---sn-jvhj5nu-nh4e.googlevideo.com
 rr3---sn-jvhj5nu-nh4s.googlevideo.com
-rr3---sn-jvhj5nu-nh4s.googlevideo.com 
 rr3---sn-jvhj5nu-nh4z.googlevideo.com
 rr3---sn-o097znlk.googlevideo.com
 rr3---sn-o097znsk.googlevideo.com
