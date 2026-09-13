@@ -3,9 +3,7 @@ List has been updated on Sept 12th 2026 :white_check_mark: </br>
 Buy me a coffee via paypal 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/KBoghdady?locale.x=en_US)
 
-```
-Buy me Coffee with XLM GDQP2KPQGKIHYJGXNUIYOMHARUARCA7DJT5FO2FFOOKY3B2WSQHG4W37
-```
+
 ```
 Buy me Coffee with BitCoin 36fD957SDWHJYYzuH2xmceJ6T2qE9vNiV4
 ```
