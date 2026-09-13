@@ -1,5 +1,5 @@
 Blocking status :white_check_mark: --Blocking Working good ) </br>
-List is updating Daily Starting today :white_check_mark: </br>
+List has been updated on Sept 12th 2026 :white_check_mark: </br>
 Buy me a coffee via paypal 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/KBoghdady?locale.x=en_US)
 
