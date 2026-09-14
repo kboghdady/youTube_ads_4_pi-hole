@@ -6,7 +6,7 @@
 
 <!-- Status badges: change the text/colour when something changes. update.ps1 rewrites the date automatically. -->
 ![Blocking status](https://img.shields.io/badge/blocking-working-brightgreen?style=for-the-badge)
-![List updated](https://img.shields.io/badge/list%20updated-Sept%2013th%202026-blue?style=for-the-badge)
+![List updated](https://img.shields.io/badge/list%20updated-Sept%2014th%202026-blue?style=for-the-badge)
 ![Pi-hole v5 and v6](https://img.shields.io/badge/Pi--hole-v5%20%7C%20v6-96060c?style=for-the-badge&logo=pihole&logoColor=white)
 
 [![PayPal](https://img.shields.io/badge/PayPal-donate-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/KBoghdady?locale.x=en_US)
