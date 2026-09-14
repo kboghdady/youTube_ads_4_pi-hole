@@ -1,0 +1,37 @@
+# YouTube Ads Blocklist for Pi-hole
+
+> A community-maintained list of YouTube ad-serving hostnames for DNS-level ad blockers. Add one URL to Pi-hole (v5 or v6), AdGuard Home, pfBlockerNG, Technitium, Blocky or any blocker that accepts a hosts-style domain list, and YouTube ads are blocked network-wide on every device. Updated every day or two from hostnames reported by users.
+
+Subscribe URL (plain hostnames, one per line):
+https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/refs/heads/master/youtubelist.txt
+
+Repository: https://github.com/kboghdady/youTube_ads_4_pi-hole
+Author: Kirolos Boghdady (kboghdady)
+
+## How to use
+
+- Pi-hole: add the URL under Lists (v6) or Group Management > Adlists (v5), then run `pihole -g`.
+- AdGuard Home: Filters > DNS blocklists > Add a custom list.
+- pfBlockerNG: Firewall > pfBlockerNG > DNSBL > DNSBL Groups, add the URL as a feed.
+- Technitium DNS: Settings > Blocking > Block List URLs.
+- Script option (Pi-hole only): `git clone https://github.com/kboghdady/youTube_ads_4_pi-hole.git && cd youTube_ads_4_pi-hole && sudo ./youtube.sh` adds every domain to the Pi-hole denylist and can run hourly from cron.
+- Keep `s.youtube.com` allowed. Pi-hole's default StevenBlack list blocks it, which breaks playback: `pihole allow s.youtube.com` (v6) or `pihole -w s.youtube.com` (v5).
+
+## Files
+
+- [youtubelist.txt](https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/refs/heads/master/youtubelist.txt): the list to subscribe to.
+- [black.list](https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/refs/heads/master/black.list): the same list, downloaded by youtube.sh.
+- [ignore.list](https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/refs/heads/master/ignore.list): hostnames that must never be blocked because they break video playback. Both published lists are already filtered against it.
+- [crowed_list.txt](https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/refs/heads/master/crowed_list.txt): raw, unfiltered community-reported hostnames. Blocks more but can break videos; optional.
+- [youtube.sh](https://github.com/kboghdady/youTube_ads_4_pi-hole/blob/master/youtube.sh): the Pi-hole script (options: --dry-run, --no-share, --crowd).
+- [README.md](https://github.com/kboghdady/youTube_ads_4_pi-hole/blob/master/README.md): full documentation, troubleshooting and privacy notes.
+
+## Limits
+
+- DNS blocking cannot stop every YouTube ad: ads and videos share the same googlevideo.com domains, and ads stitched into the video stream (server-side ad insertion) are invisible to DNS. A browser extension such as uBlock Origin or SponsorBlock is still needed for those.
+- Devices that bypass your DNS (DNS-over-HTTPS, hard-coded DNS) are not covered.
+- Some ads will slip through until the new hostnames reach the list, usually within a day or two.
+
+## Privacy
+
+Subscribing to the list sends nothing anywhere. The optional youtube.sh script shares only the googlevideo.com hostnames your Pi-hole saw in the last 24 hours (no IPs, clients or other domains); disable with --no-share.

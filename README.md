@@ -9,6 +9,9 @@
 ![List updated](https://img.shields.io/badge/list%20updated-Sept%2014th%202026-blue?style=for-the-badge)
 ![Pi-hole v5 and v6](https://img.shields.io/badge/Pi--hole-v5%20%7C%20v6-96060c?style=for-the-badge&logo=pihole&logoColor=white)
 
+<!-- Plain-text copy of the badge facts so search engines and AI assistants can read them. update.ps1 keeps it current. -->
+Last updated: **Sept 14th 2026** - **15,853 domains** in the list - works with **Pi-hole v5 and v6**, **AdGuard Home**, **pfBlockerNG**, **Technitium** and any other DNS blocker that accepts a hosts-style domain list.
+
 [![PayPal](https://img.shields.io/badge/PayPal-donate-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/KBoghdady?locale.x=en_US)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/xmh7j53o1)
 
@@ -20,6 +23,8 @@
 
 - [Option 1 · Add the list to Pi-hole (recommended)](#-option-1--add-the-list-to-pi-hole-recommended)
 - [Option 2 · Run the script](#-option-2--run-the-script)
+- [Other DNS blockers (AdGuard Home, pfBlockerNG, Technitium, Blocky)](#-other-dns-blockers-adguard-home-pfblockerng-technitium-blocky)
+- [What it does and doesn't do](#-what-it-does-and-doesnt-do)
 - [How it works](#-how-it-works)
 - [The crowd list (optional)](#-the-crowd-list-optional)
 - [Troubleshooting](#-troubleshooting)
@@ -119,6 +124,45 @@ Add this line to run it every hour (change the path if you cloned somewhere else
 The same settings live at the top of `youtube.sh` if you'd rather change them permanently.
 
 To add your own never-block entries, put them in the `ignore.list` next to the script (one per line — a full hostname or just a part of it, such as `n4v7sne7`). Your entries are merged with the latest `ignore.list` from this repo on every run.
+
+---
+
+## 🌐 Other DNS blockers (AdGuard Home, pfBlockerNG, Technitium, Blocky)
+
+`youtubelist.txt` is a plain list of hostnames, one per line, so it works with any DNS-level ad blocker that can subscribe to a domain list — not only Pi-hole. Use the same address everywhere:
+
+```
+https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/refs/heads/master/youtubelist.txt
+```
+
+| Blocker | Where to add it |
+|---------|-----------------|
+| **AdGuard Home** | **Filters → DNS blocklists → Add blocklist → Add a custom list**, paste the URL |
+| **pfBlockerNG** (pfSense) | **Firewall → pfBlockerNG → DNSBL → DNSBL Groups**, add a feed with the URL (format *Auto*) |
+| **Technitium DNS** | **Settings → Blocking → Block List URLs**, add the URL |
+| **Blocky** | Add the URL under `blocking.denylists` in `config.yml` |
+| **OPNsense Unbound** | **Services → Unbound DNS → Blocklist**, add it as a custom blocklist URL |
+
+Whatever you use, keep `s.youtube.com` and the hostnames in `ignore.list` allowed — they are needed for videos to play.
+
+---
+
+## ✅ What it does and doesn't do
+
+**It does**
+
+- Block the DNS lookups for known YouTube ad-serving hostnames, network-wide, on every device that uses your DNS server — smart TVs, phones, consoles and browsers alike, with nothing to install on them.
+- Stop many pre-roll and mid-roll video ads from loading at all, instead of showing a skippable ad.
+- Stay current: the list is refreshed every day or two from the hostnames users report (see [Privacy](#-privacy)).
+
+**It doesn't**
+
+- Block every ad. YouTube serves ads and videos from the same `googlevideo.com` domains and rotates them constantly; some ads will always slip through, and new hostnames take a day or two to reach the list.
+- Block ads that are stitched into the video stream itself (server-side ad insertion). No DNS blocker can — that needs a browser extension such as uBlock Origin or SponsorBlock on the device.
+- Remove sponsor segments, banners, or ads inside the YouTube app on devices that bypass your DNS (for example, with DNS-over-HTTPS enabled or a hard-coded DNS server).
+- Track you. Option 1 sends nothing anywhere; Option 2 shares only the hostnames described under [Privacy](#-privacy), and you can turn that off.
+
+For the best result, use this list on your DNS blocker **and** a browser extension on the devices where you can install one.
 
 ---
 
