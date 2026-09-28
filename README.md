@@ -10,7 +10,7 @@
 ![Pi-hole v5 and v6](https://img.shields.io/badge/Pi--hole-v5%20%7C%20v6-96060c?style=for-the-badge&logo=pihole&logoColor=white)
 
 <!-- Plain-text copy of the badge facts so search engines and AI assistants can read them. update.ps1 keeps it current. -->
-Last updated: **Sept 27th 2026** - **15,901 domains** in the list - works with **Pi-hole v5 and v6**, **AdGuard Home**, **pfBlockerNG**, **Technitium** and any other DNS blocker that accepts a hosts-style domain list.
+Last updated: **Sept 27th 2026** - **15,911 domains** in the list - works with **Pi-hole v5 and v6**, **AdGuard Home**, **pfBlockerNG**, **Technitium** and any other DNS blocker that accepts a hosts-style domain list.
 
 [![PayPal](https://img.shields.io/badge/PayPal-donate-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/KBoghdady?locale.x=en_US)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/xmh7j53o1)
